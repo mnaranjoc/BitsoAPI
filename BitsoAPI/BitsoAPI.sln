@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitsoAPI", "BitsoAPI\BitsoAPI.csproj", "{FEAA6A5D-B2A5-474A-BFD5-9D1186288446}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitsoAPI.Tests", "BitsoAPI.Tests\BitsoAPI.Tests.csproj", "{A4502A33-D9D0-46C6-8893-2BB72D38E477}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEAA6A5D-B2A5-474A-BFD5-9D1186288446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEAA6A5D-B2A5-474A-BFD5-9D1186288446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEAA6A5D-B2A5-474A-BFD5-9D1186288446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEAA6A5D-B2A5-474A-BFD5-9D1186288446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4502A33-D9D0-46C6-8893-2BB72D38E477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4502A33-D9D0-46C6-8893-2BB72D38E477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4502A33-D9D0-46C6-8893-2BB72D38E477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4502A33-D9D0-46C6-8893-2BB72D38E477}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
