@@ -7,7 +7,7 @@ namespace BitsoAPI.Models
 {
     public class Ticker
     {
-        public int Id { get; set; }
+        
         public bool success { get; set; }
         public Payload payload { get; set; }
     }

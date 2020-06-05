@@ -7,17 +7,13 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using BitsoAPI.Models;
-using System.Net.Http;
 using Newtonsoft.Json;
-using System.Threading.Tasks;
 
 namespace BitsoAPI.Controllers
 {
-    public class TickersController : Controller
+    public class TickerController : Controller
     {
-        //private ApplicationDbContext db = new ApplicationDbContext();
-
-        // GET: Tickers
+        // GET: Ticker
         public ActionResult Index()
         {
             List<Ticker> currentTicker = getTicker();

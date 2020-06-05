@@ -1,0 +1,82 @@
+﻿@model IEnumerable<BitsoAPI.Models.Ticker>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.payload.high)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.payload.last)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.payload.created_at)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.payload.book)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.payload.volume)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.payload.vwap)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.payload.low)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.payload.ask)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.payload.bid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.payload.change_24)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.payload.high)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.payload.last)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.payload.created_at)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.payload.book)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.payload.volume)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.payload.vwap)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.payload.low)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.payload.ask)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.payload.bid)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.payload.change_24)
+        </td>
+    </tr>
+}
+
+</table>
